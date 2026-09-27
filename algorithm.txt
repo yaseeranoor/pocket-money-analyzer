@@ -1,0 +1,40 @@
+ALGORITHM: POCKET-MONEY ANALYZER
+
+1. Start the program.
+
+2. Enter the total pocket money.
+
+3. Create two empty lists:
+   - expenses
+   - categories
+
+4. Repeat 5 times:
+   a. Enter the expense category.
+   b. Enter the expense amount.
+   c. Store the category in the categories list.
+   d. Store the amount in the expenses list.
+
+5. Display all expense categories and amounts.
+
+6. Find the highest expense.
+
+7. Find the lowest expense.
+
+8. Find the category with the highest expense.
+
+9. Count the number of expenses that are ₹200 or more.
+
+10. Calculate the total expense.
+
+11. Calculate the remaining pocket money.
+
+12. Calculate the average expense.
+
+13. Sort the expenses from lowest to highest.
+
+14. Compare the remaining money with the budget and display
+    an appropriate spending status.
+
+15. Display the final money report.
+
+16. Stop the program.

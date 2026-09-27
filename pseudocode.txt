@@ -1,0 +1,66 @@
+PSEUDOCODE: POCKET-MONEY ANALYZER
+
+START
+
+DISPLAY "POCKET-MONEY ANALYZER"
+
+INPUT pocket money
+
+CREATE empty list expenses
+CREATE empty list categories
+
+FOR i = 1 TO 5
+
+    INPUT expense category
+    INPUT expense amount
+
+    ADD category to categories
+    ADD amount to expenses
+
+END FOR
+
+DISPLAY all categories and expenses
+
+highest = maximum value in expenses
+lowest = minimum value in expenses
+
+position = position of highest in expenses
+
+DISPLAY category at position
+
+count = 0
+
+FOR each expense in expenses
+
+    IF expense >= 200 THEN
+        count = count + 1
+    END IF
+
+END FOR
+
+total = sum of expenses
+
+remaining = pocket money - total
+
+IF remaining > 500 THEN
+    DISPLAY "You are managing your money well"
+ELSE IF remaining > 0 THEN
+    DISPLAY "Be careful with your spending"
+ELSE
+    DISPLAY "You have exceeded your budget"
+END IF
+
+average = total / number of expenses
+
+sorted expenses = expenses arranged from lowest to highest
+
+DISPLAY total
+DISPLAY remaining
+DISPLAY average
+DISPLAY highest
+DISPLAY lowest
+DISPLAY most expensive category
+DISPLAY count
+DISPLAY sorted expenses
+
+END
